@@ -1,5 +1,5 @@
 context:
-  version: "1.3.2"
+  version: "1.3.3"
 
 package:
   name: pinentry
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://www.mirrorservice.org/sites/ftp.gnupg.org/gcrypt/pinentry/pinentry-${{ version }}.tar.bz2
-  sha256: 8e986ed88561b4da6e9efe0c54fa4ca8923035c99264df0b0464497c5fb94e9e
+  sha256: c2970f16d6afb66ecddfca767d743936c86239bff936eed7fd7597a678414b63
 
 build:
-  number: 1
+  number: 0
   skip: win
 
 requirements:
